@@ -37,6 +37,7 @@ function init() {
   }
 }
 
+/*
 function init() {
   // your code here	  //
   var index = 0
@@ -58,4 +59,5 @@ function init() {
       index = 0
     }
   }
+  */
 }	
