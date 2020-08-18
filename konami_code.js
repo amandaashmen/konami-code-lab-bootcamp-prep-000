@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-/*
+
 // MAYBE CHECK MATCH STRING CODE NOT INt
 function init() {
   // Attaching an keydown event listener to document.body
@@ -24,7 +24,7 @@ function init() {
     
     // Now, how can we check for which specific key was pressed?
     
-    if (codes[index] === e.detail || codes[index] === e.which) {
+    if (codes[index] === e.key) {
       index++
  
       if (index === codes.length) {
@@ -36,7 +36,6 @@ function init() {
       }
   }
 }
-*/
 
 function init() {
   // your code here	  //
