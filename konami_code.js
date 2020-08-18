@@ -24,7 +24,7 @@ function init() {
     
     // Now, how can we check for which specific key was pressed?
   
-    const key = parseInt(e.detail || e.which || e.key);
+    const key = parseInt(e.detail || e.which);
     
     if (key === codes[index]) {
       index++
