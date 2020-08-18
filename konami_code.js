@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-
+/*
 // MAYBE CHECK MATCH STRING CODE NOT INt
 function init() {
   // Attaching an keydown event listener to document.body
@@ -36,6 +36,7 @@ function init() {
       }
   }
 }
+*/
 
 function init() {
   // your code here	  //
