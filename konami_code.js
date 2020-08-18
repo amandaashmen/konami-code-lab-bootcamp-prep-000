@@ -36,27 +36,3 @@ function init() {
       }
   }
 }
-
-/*
-function init() {
-  // your code here	  //
-  var index = 0
-  document.body.addEventListener('keydown', onKeyDownHandler);
-
-  function onKeyDownHandler(e) {
-    const key = parseInt(e.detail || e.which)
-    //console.log('test', e.key)
-    console.log('code', codes[index])
-    console.log(index)
-    if (e.key === codes[index]) {
-      index++
-
-      if (index === codes.length) {
-        alert("YOU DID IT!")
-        index = 0
-      }
-    } else {
-      index = 0
-    }
-  }
-  */
