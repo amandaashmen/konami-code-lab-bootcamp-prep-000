@@ -47,6 +47,7 @@ function init() {
     const key = parseInt(e.detail || e.which)
     console.log('key', key)
     console.log('test', e.key)
+    console.log('key', code[index])
     if (e.key === code[index]) {
       index++
 
