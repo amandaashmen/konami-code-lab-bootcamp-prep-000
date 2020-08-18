@@ -45,13 +45,13 @@ function init() {
 
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which)
-    console.log('test', e.key)
-    console.log('code', code[index])
+    //console.log('test', e.key)
+    console.log('code', codes[index])
     console.log(index)
-    if (e.key === code[index]) {
+    if (e.key === codes[index]) {
       index++
 
-      if (index === code.length) {
+      if (index === codes.length) {
         alert("YOU DID IT!")
         index = 0
       }
