@@ -23,10 +23,8 @@ function init() {
   function onKeyDownHandler() {
     
     // Now, how can we check for which specific key was pressed?
-  
-    const key = parseInt(e.detail || e.which);
     
-    if (key === codes[index]) {
+    if (codes[index] === e.detail || codes[index] === e.which) {
       index++
  
       if (index === codes.length) {
