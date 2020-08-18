@@ -11,26 +11,30 @@ const codes = [
   "a"
 ];
 
+
+// MAYBE CHECK MATCH STRING CODE NOT INt
 function init() {
   // Attaching an keydown event listener to document.body
   
-  document.body.addEventListener("keydown", (event) => {
+  var index = 0;
+  
+  document.body.addEventListener('keydown', onKeyDownHandler);
+  
+  function onKeyDownHandler() {
     
     // Now, how can we check for which specific key was pressed?
-    const key = event.key;
+  
+    const key = parseInt(e.detail || e.which);
     
     if (key === codes[index]) {
       index++;
  
-      if (index === codes.length) {
+      if (index === codes.length-1) {
         alert("Hurray!");
- 
-      index = 0;
-    }
+        index = 0;
+      }
     } else {
       index = 0;
-    }
-  
+      }
   }
-  )
 }
