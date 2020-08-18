@@ -23,6 +23,8 @@ function init() {
   function onKeyDownHandler() {
     
     // Now, how can we check for which specific key was pressed?
+    console.log(index)
+    console.log(e.key)
     
     if (codes[index] === e.key) {
       index++
